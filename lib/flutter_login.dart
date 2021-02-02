@@ -550,7 +550,7 @@ class _FlutterLoginState extends State<FlutterLogin>
           create: (context) => Auth(
             onLogin: widget.onLogin,
             onSignup: widget.onSignup,
-            // onRecoverPassword: widget.onRecoverPassword,
+            onRecoverPassword: widget.onRecoverPassword,
           ),
         ),
       ],
